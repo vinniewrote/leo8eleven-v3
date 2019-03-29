@@ -1,33 +1,138 @@
-.App {
-  text-align: center;
+header {
+  font-family: "Patua One", cursive;
+}
+h1 {
+  display: none;
+}
+p {
+  font-family: "Karla", sans-serif;
+}
+ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.cvDownload a {
+  display: inline-flex;
+  font-family: "Patua One", cursive;
+  background: #8ac53f;
+  padding: 10px 15px;
+  color: #012169;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.myTechSkills ul,
+.mySoftSkills ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-left: 0;
+}
+.myTechSkills ul li,
+.mySoftSkills ul li {
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+  padding: 5px 10px;
+  border: 1px solid #8ac53f;
+  border-radius: 8px;
+  margin: 0 10px 10px 0;
+  color: #8ac53f;
+  text-transform: uppercase;
+}
+nav,
+section {
+  padding: 0.5rem 1rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+nav ul li {
+  margin: 0 20px;
+  flex-basis: auto;
+  list-style-type: none;
+  flex-direction: row;
+  text-transform: uppercase;
+}
+nav a {
+  color: #ffd100;
+}
+.toots {
+  height: 100%;
+  margin: auto;
+  grid-template-columns: 40px 50px auto 50px 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.portfolioCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cardItem {
+  width: 30%;
+  margin-right: 10px;
+}
+.cardItem:last-child {
+  margin-right: 0;
+}
+.cardItem img {
+  width: 100%;
+}
+.cardItem h4 {
+  line-height: 28px;
+}
+body {
+  background-color: #012169;
+  color: #ffd100;
+}
+section {
+  margin: 20px 0;
+}
+.contentBoundary {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.role {
+  background: #04153b;
+  padding: 10px 10px;
+  margin: 10px auto;
+  border-radius: 4px;
+}
+.current {
+  border: 2px solid #8ac53f;
+}
+.past {
+  border: 2px solid #4a7be9;
 }
 
-.App-link {
-  color: #61dafb;
+.schooling {
+  background: #4a7be9;
+  color: #012169;
+  padding: 10px 10px;
+  margin: 10px auto;
+  border: 2px solid #ffd100;
+  border-radius: 4px;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+.schooling:last-child {
+  margin-right: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.myEducation {
+  display: flex;
+  justify-content: space-between;
+}
+.connectMe ul li {
+  display: inline;
+  margin-right: 20px;
+}
+.connectMe a {
+  color: #ffd100;
+}
+.headshot img {
+  clip-path: circle(170px at center);
+  width: 350px;
 }
