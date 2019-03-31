@@ -102,5 +102,5 @@
       }
     ]
   },
-  "plugins": ["prettier"]
+  "plugins": ["prettier", "jsx-a11y"]
 }
