@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import headshotimg from '../headshot-sm.png';
 
 class MyVitals extends Component {
   render() {
     return (
       <section id="about">
         <h2>About Me</h2>
-        <div className="headshot">
-          <img src={headshotimg} alt="headshot" />
-        </div>
+
         <div className="mySummary">
           <p>
             UI Engineer with 8+ years of experience architecting, designing and

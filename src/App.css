@@ -1,9 +1,6 @@
 header {
   font-family: "Patua One", cursive;
 }
-h1 {
-  display: none;
-}
 p {
   font-family: "Karla", sans-serif;
 }
@@ -12,6 +9,13 @@ ul li {
 }
 a {
   text-decoration: none;
+}
+h1 {
+  font-family: "Patua One", cursive;
+}
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
 }
 .cvDownload a {
   display: inline-flex;
@@ -43,6 +47,11 @@ a {
 nav,
 section {
   padding: 0.5rem 1rem;
+}
+nav {
+  /* position: fixed;
+  top: 1em;
+  width: 100%; */
 }
 nav ul {
   display: flex;
@@ -135,4 +144,7 @@ section {
 .headshot img {
   clip-path: circle(170px at center);
   width: 350px;
+}
+.flex-salutation {
+  display: flex;
 }

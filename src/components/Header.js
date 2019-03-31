@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import logo from '../leoLogo.svg';
 
 class Header extends Component {
   render() {
     return (
       <header>
-        <h1>Leo8eleven</h1>
         <nav>
           <ul>
             <li>

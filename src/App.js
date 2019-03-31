@@ -3,8 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Portfolio from './components/PortfolioCard';
 import Skills from './components/MySkillset';
-import Availability from './components/AvailableForWork';
-import MyResume from './components/MyResume';
+import Sal from './components/Salutation';
 import MyExperiences from './components/MyExperiences';
 import Connect from './components/ConnectHub';
 import MyVitals from './components/MyVitals';
@@ -19,7 +18,7 @@ class App extends Component {
     return (
       <div className="contentBoundary">
         <Header />
-        {/* <Availability /> */}
+        <Sal />
         <MyVitals />
         <Skills />
         <MyExperiences />
