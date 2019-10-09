@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class MyVitals extends Component {
   render() {
     return (
-      <section id="about">
+      <section id="about" className="sizer">
         <h2>About Me</h2>
 
         <div className="mySummary">

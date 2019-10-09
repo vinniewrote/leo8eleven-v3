@@ -1,39 +1,39 @@
 import React, { Component } from 'react';
+import github from '../github.svg';
+import linkedin from '../linkedin.svg';
+import email from '../email.svg';
 
 class ConnectHub extends Component {
   render() {
     return (
-      <section id="#connect" className="connectMe">
-        <h2>Connect</h2>
-        <ul>
-          <li>
-            <a
-              href="http://www.twitter.com/vinniewrote"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Twitter
-            </a>
-          </li>
-          <li>
-            <a
-              href="http://www.github.com/vinniewrote"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Github
-            </a>
-          </li>
-          <li>
-            <a
-              href="mailto:vizente@leo8eleven.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Email
-            </a>
-          </li>
-        </ul>
+      <section className="connectMe">
+        <button type="button">
+          <a
+            href="http://www.github.com/vinniewrote"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={github} alt="github" />
+          </a>
+        </button>
+        <button type="button">
+          <a
+            href="https://www.linkedin.com/in/vizentefreeman"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={linkedin} alt="linkedin" />
+          </a>
+        </button>
+        <button type="button">
+          <a
+            href="mailto:vizente@leo8eleven.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={email} alt="email" />
+          </a>
+        </button>
       </section>
     );
   }
