@@ -7,9 +7,28 @@ class MyExperiences extends Component {
         <h2>My Experience</h2>
         <div className="workExperience">
           <div className="role current">
+            <h3>FastModel Sports</h3>
+            <h4>Senior Software Engineer</h4>
+            <p className="datesOfEmp">May 2019 - Present</p>
+            <ul className="responsibilities">
+              <li>
+                Developing updated front-end architecture for FastModel's
+                recruit application
+              </li>
+              <li>Upgraded app to the current version of react</li>
+              <li>
+                Taking advantage of React Context API with Redux.js for state
+                management
+              </li>
+              <li>Implemented updated linting for JavaScript and CSS</li>
+              <li>Cut the number of bugs per release down by 10%</li>
+              <li>Controlled the weekly deployment process with Jenkins</li>
+            </ul>
+          </div>
+          <div className="role past">
             <h3>Egencia</h3>
             <h4>UI Software Engineer II</h4>
-            <p className="datesOfEmp">April 2018 - Present</p>
+            <p className="datesOfEmp">April 2018 - May 2019</p>
             <ul className="responsibilities">
               <li>
                 Leveraged several proprietary data APIs in order to create an
@@ -47,7 +66,7 @@ class MyExperiences extends Component {
           <div className="role past">
             <h3>Orbitz Worldwide</h3>
             <h4>UI Software Engineer II</h4>
-            <p className="datesOfEmp">September 2016 - April 2018</p>
+            <p className="datesOfEmp">February 2014 - September 2016</p>
             <ul className="responsibilities">
               <li>
                 Developed responsive-focused enhancements for the orbitz.com{' '}

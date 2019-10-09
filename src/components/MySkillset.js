@@ -8,7 +8,7 @@ class MySkillset extends Component {
 
   render() {
     return (
-      <section id="skillset">
+      <section id="skillset" className="sizer">
         <h2>My Skills</h2>
         <div className="mySoftSkills">
           <ul>

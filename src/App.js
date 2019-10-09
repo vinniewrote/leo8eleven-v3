@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header';
 import Portfolio from './components/PortfolioCard';
 import Skills from './components/MySkillset';
 import Sal from './components/Salutation';
@@ -17,7 +16,6 @@ class App extends Component {
   render() {
     return (
       <div className="contentBoundary">
-        <Header />
         <Sal />
         <MyVitals />
         <Skills />
@@ -30,7 +28,11 @@ class App extends Component {
             ))}
           </div>
         </section>
-        <Connect />
+        <section id="connect" className="sizer">
+          <h2>Connect with Me</h2>
+          <p>More to come. In the meantime use the means below:</p>
+          <Connect />
+        </section>
       </div>
     );
   }
