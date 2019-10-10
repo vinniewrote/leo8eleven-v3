@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import headshotimg from '../headshot-sm.png';
 import Connect from './ConnectHub';
 import Header from './Header';
