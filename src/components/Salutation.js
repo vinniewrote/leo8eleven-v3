@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import headshotimg from '../headshot-sm.png';
 import Connect from './ConnectHub';
 import Header from './Header';
@@ -7,6 +7,7 @@ class Saluation extends Component {
   render() {
     return (
       <div className="wrapper">
+        <Header />
         <div
           className="masthead"
           style={{
@@ -28,7 +29,6 @@ class Saluation extends Component {
             <Connect />
           </div>
         </div>
-        <Header />
       </div>
     );
   }
