@@ -172,6 +172,13 @@ button img {
 .sizer {
   height: 95vh;
 }
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  background-color: #012169;
+  width: 100%;
+  z-index: 100;
+}
 @media screen and (max-width: 420px) {
   .headshot img {
     height: 200px;
